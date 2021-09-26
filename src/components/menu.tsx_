@@ -1,0 +1,14 @@
+import React from 'react';
+import MenuInterface from "../interfaces/menu";
+
+const Menu: React.ComponentType<MenuInterface> = () => {
+    return (
+        <>
+            <div>
+                <h1>Teste</h1>
+            </div>
+        </>
+    );
+}
+
+export default Menu;
